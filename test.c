@@ -32,6 +32,9 @@ bool isPalindrome(int x){
         return true;
 }
 
+int main(){
+    printf("%d", isPalindrome(121));
+}
 
 int mannin(){
     char str[] = "634252";
@@ -60,8 +63,4 @@ int manin(){
 
     printf("%s\n%s",str, str_2);
 
-}
-
-int main(){
-    printf("\n%d", isPalindrome(121));
 }
