@@ -67,7 +67,7 @@ int romanToInt(char* s){
 
 int main(){
 
-    printf("%d", romanToInt(""));
+    printf("%d", romanToInt("CXIV"));
 
     return 1;
 }
