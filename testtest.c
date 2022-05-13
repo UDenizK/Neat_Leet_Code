@@ -6,6 +6,6 @@
 int main(){
     int num = 1234;
     char str[10];
-    sprintf(str,"%dasdas",num);
+    sprintf(str,"%d",num);
     printf("%s",str);
 }
